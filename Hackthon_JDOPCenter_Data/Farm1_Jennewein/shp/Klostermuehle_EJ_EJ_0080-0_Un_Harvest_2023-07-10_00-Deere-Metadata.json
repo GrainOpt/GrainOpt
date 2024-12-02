@@ -1,0 +1,132 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "d3dcbe58-5ede-418a-ab01-abd861a1ff85",
+  "Operation": "Harvest",
+  "CropSeason": 2023,
+  "CropId": 45,
+  "CropToken": "RAPE_SEED_E_OIL",
+  "CropName": "Rape Seed (Europe Oil)",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "00000000-0000-0000-0000-000000000000",
+    "ProductName": "---",
+    "BrandName": "---",
+    "TankMix": false,
+    "ProductUseHash": "3e2d9c87"
+  },
+  "FieldOperationStartDate": "2023-07-10T15:13:34.997Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:55:31.2631408Z",
+  "DataAttributes": [
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "VRYIELDMAS",
+      "Unit": "t1ha-1",
+      "Description": "Yield as Mass"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "Crop",
+      "Description": "CropId"
+    },
+    {
+      "Name": "WetMass",
+      "Unit": "t1ha-1",
+      "Description": "Wet Mass"
+    },
+    {
+      "Name": "Moisture",
+      "Unit": "prcnt",
+      "Description": "Moisture"
+    },
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "VARIETY",
+      "Description": "Variety Name"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "DRYMATTER",
+      "Unit": "prcnt",
+      "Description": "Dry Matter"
+    },
+    {
+      "Name": "OIL",
+      "Unit": "prcnt",
+      "Description": "Constituent Oil"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "71f7c5f1-15b4-b155-05fa-157b389d8cbe",
+      "MachineName": "1Z0T560BKJR110465",
+      "MachineSerial": "1Z0T560BKJR110465",
+      "OperatorId": "00000000-0000-0000-0000-000000000000",
+      "OperatorName": ""
+    }
+  },
+  "Implements": [],
+  "Products": [
+    {
+      "ProductId": "00000000-0000-0000-0000-000000000000",
+      "ProductName": "---",
+      "BrandName": "---",
+      "TankMix": false,
+      "ProductUseHash": "3e2d9c87"
+    }
+  ]
+}

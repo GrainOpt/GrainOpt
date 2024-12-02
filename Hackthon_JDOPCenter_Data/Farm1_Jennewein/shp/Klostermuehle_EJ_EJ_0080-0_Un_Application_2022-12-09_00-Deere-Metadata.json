@@ -1,0 +1,168 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "7fc44fed-5fee-4202-aa07-173d1b8e9840",
+  "Operation": "Application",
+  "CropSeason": 2022,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "470075b6-7b71-4933-bab8-0dcea3b58006",
+    "ProductName": "KerbFlo",
+    "TankMix": true,
+    "Rate": {
+      "Value": 200.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "df0ff776a22b2a47616d4ab8fefbcb3a",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "Kerb FLO",
+        "Rate": {
+          "Value": 1.7999999523162842,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 198.1999969482422,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2022-12-09T11:23:26.131Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:57:08.5159568Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineName": "1L06150RVDR771856",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "00000000-0000-0000-0000-000000000000",
+      "OperatorName": ""
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "2e3bb1dc-282c-1fec-bead-be5ccd354435",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "470075b6-7b71-4933-bab8-0dcea3b58006",
+      "ProductName": "KerbFlo",
+      "TankMix": true,
+      "Rate": {
+        "Value": 200.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "df0ff776a22b2a47616d4ab8fefbcb3a",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Kerb FLO",
+          "Rate": {
+            "Value": 1.7999999523162842,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 198.1999969482422,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

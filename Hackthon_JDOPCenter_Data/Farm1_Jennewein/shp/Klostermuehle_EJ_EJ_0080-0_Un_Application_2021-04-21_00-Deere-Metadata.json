@@ -1,0 +1,163 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "52af6a28-bb06-4327-a430-0956f31df61b",
+  "Operation": "Application",
+  "CropSeason": 2021,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "10f5b1f8-8d7c-4737-af16-ba3471476c00",
+    "ProductName": "Sparviero",
+    "TankMix": true,
+    "Rate": {
+      "Value": 260.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "9d9db8466a0876170042d1a45f9c31fe",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "Sparviero",
+        "Rate": {
+          "Value": 75.0,
+          "Unit": "ml1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 259.92498779296875,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2021-04-21T09:58:31.858Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:57:37.2599520Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineName": "1L06150RVDR771856",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "00000000-0000-0000-0000-000000000000",
+      "OperatorName": ""
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "87cde5d3-1adf-9efc-5ff1-95140535b8fb",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "10f5b1f8-8d7c-4737-af16-ba3471476c00",
+      "ProductName": "Sparviero",
+      "TankMix": true,
+      "Rate": {
+        "Value": 260.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "9d9db8466a0876170042d1a45f9c31fe",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Sparviero",
+          "Rate": {
+            "Value": 75.0,
+            "Unit": "ml1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 259.92498779296875,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

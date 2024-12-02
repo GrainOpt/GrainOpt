@@ -1,0 +1,134 @@
+{
+  "Version": "1.0",
+  "OrgId": 22718,
+  "ClientId": "3c46c900-e252-459c-ac7b-327ebae929bc",
+  "ClientName": "Kaichgauer Güterverw",
+  "FarmId": "53cc4522-8b01-405a-bb8a-56796df40ff0",
+  "FarmName": "Kraichgauer Güterver",
+  "FieldId": "b3476590-c280-48bf-bea6-7f04dd7f539e",
+  "FieldName": "Hühnerberg",
+  "FieldOperationId": "577105b7-7c46-49a0-8a44-648a5c1b6678",
+  "Operation": "Application",
+  "CropSeason": 2023,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductName": "Biogas-Separat",
+    "BrandName": "---",
+    "TankMix": false
+  },
+  "FieldOperationStartDate": "2023-04-04T11:32:08.501Z",
+  "FileCreatedTimeStamp": "2024-11-28T07:31:02.2377046Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "kg1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "kg1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "kg1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "69750a18-e479-fbe3-e897-528b941a5b52",
+      "MachineName": "",
+      "MachineSerial": "",
+      "OperatorId": "677484cf-d599-4ac6-9500-52d7428c36ac",
+      "OperatorName": "Daniel Wirth"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "5aa2a1b4-0181-c779-70cf-2177e899b1ae",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "d35ec795-8ff8-b004-c8bc-c24aaec6dfbb",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "8e549041-a20b-f504-d8c6-7b150396e807",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "3bfde52d-d641-c488-1e72-06678bde9c05",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "4cb49fe6-3deb-11a7-aaec-1651f6869bda",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "f147173d-3cc9-f911-9fa3-dd7b3790128c",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductName": "Biogas-Separat",
+      "BrandName": "---",
+      "TankMix": false
+    }
+  ]
+}

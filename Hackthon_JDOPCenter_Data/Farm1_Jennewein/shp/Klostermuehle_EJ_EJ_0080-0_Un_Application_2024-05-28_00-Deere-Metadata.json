@@ -1,0 +1,279 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "86fa580b-e099-4c6e-9cf0-fc141464817d",
+  "Operation": "Application",
+  "CropSeason": 2024,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "64c47819-25cc-4b87-abad-164d8fcf3792",
+    "ProductName": "T3",
+    "TankMix": true,
+    "Rate": {
+      "Value": 197.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "dc52fedc63b043b1f7095a28310f1628",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "Lambda-Cyalothrin",
+        "Rate": {
+          "Value": 75.0,
+          "Unit": "ml1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Hebucur",
+        "Rate": {
+          "Value": 0.6000000238418579,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Tokyo",
+        "Rate": {
+          "Value": 0.6000000238418579,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Vivir 8-3-4",
+        "Rate": {
+          "Value": 10.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 185.72500610351562,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2024-05-28T13:58:42.961Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:51:57.6420240Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "a00f58db-3705-4b61-9c43-6506f98e2da2",
+      "OperatorName": "Erik              EJ"
+    },
+    "2": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "21507e2b-2d1a-4114-bf5c-00d0e2403aa9",
+      "OperatorName": "Bernd Reinecke Frank"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "3b0c8234-0559-2e53-96c8-e4f88fadb23a",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "a4e64f8f-699a-7341-a0c7-ac7a2f077109",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "64c47819-25cc-4b87-abad-164d8fcf3792",
+      "ProductName": "T3",
+      "TankMix": true,
+      "Rate": {
+        "Value": 197.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "dc52fedc63b043b1f7095a28310f1628",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Lambda-Cyalothrin",
+          "Rate": {
+            "Value": 75.0,
+            "Unit": "ml1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Hebucur",
+          "Rate": {
+            "Value": 0.6000000238418579,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Tokyo",
+          "Rate": {
+            "Value": 0.6000000238418579,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Vivir 8-3-4",
+          "Rate": {
+            "Value": 10.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 185.72500610351562,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    },
+    {
+      "ProductId": "64c47819-25cc-4b87-abad-164d8fcf3792",
+      "ProductName": "T3",
+      "TankMix": true,
+      "Rate": {
+        "Value": 197.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "6fe8f3688492a676add65a9a443d9de8",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Lambda-Cyalothrin",
+          "Rate": {
+            "Value": 75.0,
+            "Unit": "ml1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Hebucur",
+          "Rate": {
+            "Value": 0.6000000238418579,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Tokyo",
+          "Rate": {
+            "Value": 0.6000000238418579,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 195.72500610351562,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "6c7f13e5-5e05-4fe9-9930-1cadc2ed2aab",
+  "Operation": "Application",
+  "CropSeason": 2023,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "0a9e6b55-795c-47af-9579-63bf7571f5f8",
+    "ProductName": "Cantus",
+    "TankMix": true,
+    "Rate": {
+      "Value": 300.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "fccba7bef62020add4b526e74a298ec0",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "796-Lebosol-Bor fl.",
+        "Rate": {
+          "Value": 1.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Cantus Gold",
+        "Rate": {
+          "Value": 0.5,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 298.5,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2023-05-01T15:29:23.498Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:54:15.3014570Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineName": "1L06150RVDR771856",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "54ce3e53-6f26-4bfe-b7e6-dd063a528998",
+      "OperatorName": "Erik Jennewein"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "2d8e78d3-ab42-dccb-f57c-b6ccd5999229",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "0a9e6b55-795c-47af-9579-63bf7571f5f8",
+      "ProductName": "Cantus",
+      "TankMix": true,
+      "Rate": {
+        "Value": 300.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "fccba7bef62020add4b526e74a298ec0",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "796-Lebosol-Bor fl.",
+          "Rate": {
+            "Value": 1.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Cantus Gold",
+          "Rate": {
+            "Value": 0.5,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 298.5,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

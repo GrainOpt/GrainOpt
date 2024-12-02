@@ -1,0 +1,216 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "9e6595b9-e606-4690-b4b8-8315e5a829fd",
+  "Operation": "Application",
+  "CropSeason": 2022,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "182c882e-dc3f-49c3-84d3-91bf46e568d0",
+    "ProductName": "Insektizid",
+    "TankMix": true,
+    "Rate": {
+      "Value": 200.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "b7238cace5e9081740d089d5044ae171",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "796-Lebosol-Bor fl.",
+        "Rate": {
+          "Value": 2.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Tebu25",
+        "Rate": {
+          "Value": 1.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Lambda-Cyalothrin",
+        "Rate": {
+          "Value": 0.07500000298023224,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 196.9250030517578,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2022-10-26T14:53:44.994Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:57:08.8187201Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineName": "1L06150RVDR771856",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "00000000-0000-0000-0000-000000000000",
+      "OperatorName": ""
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "d730e464-3dd9-ff6c-2c85-9ea8b7f7d842",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "d637991a-f21e-cf09-0a0b-719670bc6f31",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "d825cdb3-c22f-3fca-3dbe-4dd6bfa44885",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "d9b71178-735c-de01-febd-ec916495161f",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "182c882e-dc3f-49c3-84d3-91bf46e568d0",
+      "ProductName": "Insektizid",
+      "TankMix": true,
+      "Rate": {
+        "Value": 200.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "b7238cace5e9081740d089d5044ae171",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "796-Lebosol-Bor fl.",
+          "Rate": {
+            "Value": 2.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Tebu25",
+          "Rate": {
+            "Value": 1.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Lambda-Cyalothrin",
+          "Rate": {
+            "Value": 0.07500000298023224,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 196.9250030517578,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

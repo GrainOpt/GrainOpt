@@ -1,0 +1,199 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "20368e17-fbaa-4142-9efa-cc0d1220288d",
+  "Operation": "Application",
+  "CropSeason": 2021,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "e1419435-1e65-4c56-ba78-412094a9e258",
+    "ProductName": "Mateno Boxer",
+    "TankMix": true,
+    "Rate": {
+      "Value": 250.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "9dbaa0e9a7e36ee5fa5c26142053b952",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "Boxer",
+        "Rate": {
+          "Value": 2.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Mateno",
+        "Rate": {
+          "Value": 0.699999988079071,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Cadou SC",
+        "Rate": {
+          "Value": 0.5,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 246.8000030517578,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2021-10-04T17:09:27.369Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:57:37.2599575Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineName": "1L06150RVDR771856",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "00000000-0000-0000-0000-000000000000",
+      "OperatorName": ""
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "a797c616-ec25-312d-ab7d-8d61a1196455",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "e1419435-1e65-4c56-ba78-412094a9e258",
+      "ProductName": "Mateno Boxer",
+      "TankMix": true,
+      "Rate": {
+        "Value": 250.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "9dbaa0e9a7e36ee5fa5c26142053b952",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Boxer",
+          "Rate": {
+            "Value": 2.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Mateno",
+          "Rate": {
+            "Value": 0.699999988079071,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Cadou SC",
+          "Rate": {
+            "Value": 0.5,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 246.8000030517578,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

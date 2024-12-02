@@ -1,0 +1,117 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "5dc375fc-9728-4de8-ad2d-34e90c5cb0c4",
+  "Operation": "Application",
+  "CropSeason": 2024,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "8b012bf6-5ae4-426c-af5f-5e83e164886d",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductName": "xfm_KAS (Kalkammonsalpeter)",
+    "BrandName": "---",
+    "TankMix": false
+  },
+  "FieldOperationStartDate": "2024-04-07T13:16:45.595Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:51:57.3889225Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "kg1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "kg1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "kg1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "a00f58db-3705-4b61-9c43-6506f98e2da2",
+      "OperatorName": "Erik              EJ"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "c699054b-1b47-92a1-fd14-6e07f3b2b4cb",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "56aeea11-8134-5a17-3519-49e6cc4de763",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductName": "xfm_KAS (Kalkammonsalpeter)",
+      "BrandName": "---",
+      "TankMix": false
+    }
+  ]
+}

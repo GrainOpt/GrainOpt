@@ -1,0 +1,211 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "90d5638b-5572-416c-a735-a6f5029673a4",
+  "Operation": "Application",
+  "CropSeason": 2024,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "918ca8d6-7b9b-46e2-9b3d-525e0d57e5df",
+    "ProductName": "Tank mix 2024-04-07 17-07-24",
+    "TankMix": true,
+    "Rate": {
+      "Value": 238.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "539f366f9b1775e222639239b9cd8485",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "Omnera",
+        "Rate": {
+          "Value": 1.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Countdown NT",
+        "Rate": {
+          "Value": 0.23000000417232513,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "xfm_Input Classic",
+        "Rate": {
+          "Value": 1.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 235.77000427246094,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2024-04-08T15:55:12.935Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:52:01.9115391Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "a00f58db-3705-4b61-9c43-6506f98e2da2",
+      "OperatorName": "Erik              EJ"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "99f64c71-efc3-b70f-65a2-e6e7eebfb85a",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "6d33ee46-52a5-327c-f6e5-a542b659557f",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "4d3faa46-6650-11df-e27f-61fedaf341b6",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "918ca8d6-7b9b-46e2-9b3d-525e0d57e5df",
+      "ProductName": "Tank mix 2024-04-07 17-07-24",
+      "TankMix": true,
+      "Rate": {
+        "Value": 238.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "539f366f9b1775e222639239b9cd8485",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "Omnera",
+          "Rate": {
+            "Value": 1.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Countdown NT",
+          "Rate": {
+            "Value": 0.23000000417232513,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "xfm_Input Classic",
+          "Rate": {
+            "Value": 1.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 235.77000427246094,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}

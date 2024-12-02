@@ -1,0 +1,117 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "5b551450-c104-4470-9fc8-b94e9b5e810f",
+  "Operation": "Application",
+  "CropSeason": 2024,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "62c42c98-3293-4f3b-b678-efd91874e68d",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductName": "DAP",
+    "BrandName": "---",
+    "TankMix": false
+  },
+  "FieldOperationStartDate": "2024-03-25T14:06:23.050Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:51:56.1047059Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "kg1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "kg1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "kg1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "ef1782dd-62d0-5715-973c-3dbafe8e9d64",
+      "MachineSerial": "1L06210RLER801433",
+      "OperatorId": "5d53c5cb-0fc2-459e-be86-e958022c1518",
+      "OperatorName": "Jennewein, Erik"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "36f089c0-88fb-1254-fc31-7c8dd63b947c",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "5655c697-b627-ccb1-1cc1-7c623c386b9f",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductName": "DAP",
+      "BrandName": "---",
+      "TankMix": false
+    }
+  ]
+}

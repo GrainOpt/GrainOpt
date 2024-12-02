@@ -1,0 +1,194 @@
+{
+  "Version": "1.0",
+  "OrgId": 370924,
+  "ClientId": "bfa96541-75e4-4a0b-aa45-cc740bb50c84",
+  "ClientName": "Klostermühle Landwir",
+  "FarmId": "3f1e7db5-b9a4-4bef-bb73-f9d7e03bf7be",
+  "FarmName": "EJ",
+  "FieldId": "86f9d8f4-8f94-4b91-a38d-dff594a7923f",
+  "FieldName": "EJ 0080-0 Untere_Hub",
+  "FieldOperationId": "4b75873c-77fe-4a18-9646-515cce196c73",
+  "Operation": "Application",
+  "CropSeason": 2023,
+  "CropToken": "",
+  "CropName": "",
+  "Work": {
+    "WorkPlanId": "00000000-0000-0000-0000-000000000000",
+    "WorkOrder": ""
+  },
+  "Product": {
+    "ProductId": "3ab90c8f-e9a4-442c-a678-63becf940efd",
+    "ProductName": "Mavrik Vita",
+    "TankMix": true,
+    "Rate": {
+      "Value": 200.0,
+      "Unit": "l1ha-1"
+    },
+    "ProductUseHash": "35ae505a29d1696395c71a7bc0fea0f4",
+    "Components": [
+      {
+        "Carrier": false,
+        "Name": "796-Lebosol-Bor fl.",
+        "Rate": {
+          "Value": 1.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": false,
+        "Name": "Mospilan SG",
+        "Rate": {
+          "Value": 200.0,
+          "Unit": "g1ha-1"
+        },
+        "BrandName": "---"
+      },
+      {
+        "Carrier": true,
+        "Name": "Wasser",
+        "Rate": {
+          "Value": 199.0,
+          "Unit": "l1ha-1"
+        },
+        "BrandName": "---"
+      }
+    ]
+  },
+  "FieldOperationStartDate": "2023-04-18T17:36:59.958Z",
+  "FileCreatedTimeStamp": "2024-11-27T13:54:15.7616389Z",
+  "DataAttributes": [
+    {
+      "Name": "Time",
+      "Description": "Timestamp"
+    },
+    {
+      "Name": "Heading",
+      "Description": "Machine Heading"
+    },
+    {
+      "Name": "DISTANCE",
+      "Unit": "m",
+      "Description": "Distance Travelled From Previous Point"
+    },
+    {
+      "Name": "SWATHWIDTH",
+      "Unit": "m",
+      "Description": "Width Of Element"
+    },
+    {
+      "Name": "Product",
+      "Description": "Product Name"
+    },
+    {
+      "Name": "SECTIONID",
+      "Description": "Element Id"
+    },
+    {
+      "Name": "AppliedRate",
+      "Unit": "l1ha-1",
+      "Description": "Applied Rate"
+    },
+    {
+      "Name": "ControlRate",
+      "Unit": "l1ha-1",
+      "Description": "Control Rate"
+    },
+    {
+      "Name": "TargetRate",
+      "Unit": "l1ha-1",
+      "Description": "Target Rate"
+    },
+    {
+      "Name": "Elevation",
+      "Unit": "m",
+      "Description": "Elevation"
+    },
+    {
+      "Name": "IsoTime",
+      "Description": "Precise Timestamp"
+    },
+    {
+      "Name": "Machine",
+      "Description": "Index into the MachineUsage map, or 0 if no information exists"
+    },
+    {
+      "Name": "FUEL",
+      "Unit": "l",
+      "Description": "Fuel"
+    },
+    {
+      "Name": "VEHICLSPEED",
+      "Unit": "km1hr-1",
+      "Description": "Vehicle Speed"
+    },
+    {
+      "Name": "PRODUCTHASH",
+      "Description": "ProductUseHash"
+    }
+  ],
+  "MachineUsage": {
+    "1": {
+      "MachineId": "b5f77871-6213-9ec1-fe14-1ff5dc309126",
+      "MachineName": "1L06150RVDR771856",
+      "MachineSerial": "1L06150RVDR771856",
+      "OperatorId": "54ce3e53-6f26-4bfe-b7e6-dd063a528998",
+      "OperatorName": "Erik Jennewein"
+    }
+  },
+  "Implements": [
+    {
+      "ImplementId": "ca4adb3e-37ca-27e6-0135-ad81bf1dcc58",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "58f51ef2-6b05-6ee4-30a9-71a908dde153",
+      "ImplementSerialNumber": ""
+    },
+    {
+      "ImplementId": "7bd40239-a58e-2e9c-0519-1a86c6d357f5",
+      "ImplementSerialNumber": ""
+    }
+  ],
+  "Products": [
+    {
+      "ProductId": "3ab90c8f-e9a4-442c-a678-63becf940efd",
+      "ProductName": "Mavrik Vita",
+      "TankMix": true,
+      "Rate": {
+        "Value": 200.0,
+        "Unit": "l1ha-1"
+      },
+      "ProductUseHash": "35ae505a29d1696395c71a7bc0fea0f4",
+      "Components": [
+        {
+          "Carrier": false,
+          "Name": "796-Lebosol-Bor fl.",
+          "Rate": {
+            "Value": 1.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": false,
+          "Name": "Mospilan SG",
+          "Rate": {
+            "Value": 200.0,
+            "Unit": "g1ha-1"
+          },
+          "BrandName": "---"
+        },
+        {
+          "Carrier": true,
+          "Name": "Wasser",
+          "Rate": {
+            "Value": 199.0,
+            "Unit": "l1ha-1"
+          },
+          "BrandName": "---"
+        }
+      ]
+    }
+  ]
+}
