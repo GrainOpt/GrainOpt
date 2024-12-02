@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "ec2b6844-3e35-432c-9697-f43f21dee48c",
+		"name": "Hac",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "470010"
+	},
+	"item": [
+		{
+			"name": "Fetching of Farms",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ4RmhDVlJkQUpmRmRsZ2J3UzZHeHlGWHdUUnFVd19oMVZ4Ui1Bdm1CZ2ZBIn0.eyJleHAiOjE3NjM3NDE0ODIsImlhdCI6MTczMjIwNTQ4MywiYXV0aF90aW1lIjoxNzMyMjA1NDgyLCJqdGkiOiIyMDNjYTQ5Ni0zMjRhLTQ3NzItYTUzMS05NmFhMzU2MGNjNmYiLCJpc3MiOiJodHRwczovL2F1dGgtcWEuZGlnaXRhbC1mYXJtaW5nLmNvbS9hdXRoL3JlYWxtcy94ZmllbGRtYW5hZ2VyIiwic3ViIjoiMTE0NmYxZWYtN2UzZC00YzNjLWE1ODUtOGYxOTFhYmFhNjAzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidGVzdC1wYXJ0bmVyLWFwcCIsInNlc3Npb25fc3RhdGUiOiJhNDJhYTljYi1lMTEzLTQ3YjYtOWNiYi0yZjY3YTMzYTc2ZGMiLCJhY3IiOiIxIiwic2NvcGUiOiJkb3NlZG1hcCBmaWVsZCBjcm9wc2Vhc29uIHNwcmF5aW5nIGdyb3d0aHN0YWdlcHJlZGljdGlvbiBmYXJtIiwic2lkIjoiYTQyYWE5Y2ItZTExMy00N2I2LTljYmItMmY2N2EzM2E3NmRjIiwiZmVhdHVyZXMiOlsiRkFSTV9NQU5BR0VNRU5UIiwiVEFNU19DT05GSUdVUkFUSU9OIl0sImNvdW50cnkiOiJkZSIsInVzZXJVdWlkIjoiZTk1MTc1ODQtMWU2Yy00ZWFhLWJiOGEtNDI1Y2E1OGM2ZWFmIiwibGFuZ3VhZ2UiOiJkZSIsInV1aWQiOiI5ZGRkYmFlMTg3ZTM0OWEwYjIyYTgwOTNjOTA0ZTE5OSJ9.ut-RTHdArE5T24aaJ0wUFFqsGG8LMUwTrLboyu7bPrSeBKUohl2Nk4dER8VaJCGdwWfuw-mYvGjgvRES43LUlEe1dRl5ctvymyGl2Xo5Jc9eEtmNUQFPfIkL7ZBSMcKMiPFzgFTZLGgGaU6c1p-DOZogtws4AIkC4WWdl0O-tBIk07eD3RwoCRmpfTexQlssTF6Tf2zHwf02i29ihLsuNdEaw33ax_ohna9qputEWnX9czzVZUbJSJHuZhdgI2k5Lb1aKpjZGCrBxwB74bILnkbvSdB0K__g02QPcNwKJMfUvDWu_1RVmgk23yA-Nb8C5gUT3-HTAxlmfCQsF6UQZg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://tams-qa-api.digital-farming.com/api/farms/v2/farms",
+					"protocol": "https",
+					"host": [
+						"tams-qa-api",
+						"digital-farming",
+						"com"
+					],
+					"path": [
+						"api",
+						"farms",
+						"v2",
+						"farms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetching of Fields",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ4RmhDVlJkQUpmRmRsZ2J3UzZHeHlGWHdUUnFVd19oMVZ4Ui1Bdm1CZ2ZBIn0.eyJleHAiOjE3NjM3NDE0ODIsImlhdCI6MTczMjIwNTQ4MywiYXV0aF90aW1lIjoxNzMyMjA1NDgyLCJqdGkiOiIyMDNjYTQ5Ni0zMjRhLTQ3NzItYTUzMS05NmFhMzU2MGNjNmYiLCJpc3MiOiJodHRwczovL2F1dGgtcWEuZGlnaXRhbC1mYXJtaW5nLmNvbS9hdXRoL3JlYWxtcy94ZmllbGRtYW5hZ2VyIiwic3ViIjoiMTE0NmYxZWYtN2UzZC00YzNjLWE1ODUtOGYxOTFhYmFhNjAzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidGVzdC1wYXJ0bmVyLWFwcCIsInNlc3Npb25fc3RhdGUiOiJhNDJhYTljYi1lMTEzLTQ3YjYtOWNiYi0yZjY3YTMzYTc2ZGMiLCJhY3IiOiIxIiwic2NvcGUiOiJkb3NlZG1hcCBmaWVsZCBjcm9wc2Vhc29uIHNwcmF5aW5nIGdyb3d0aHN0YWdlcHJlZGljdGlvbiBmYXJtIiwic2lkIjoiYTQyYWE5Y2ItZTExMy00N2I2LTljYmItMmY2N2EzM2E3NmRjIiwiZmVhdHVyZXMiOlsiRkFSTV9NQU5BR0VNRU5UIiwiVEFNU19DT05GSUdVUkFUSU9OIl0sImNvdW50cnkiOiJkZSIsInVzZXJVdWlkIjoiZTk1MTc1ODQtMWU2Yy00ZWFhLWJiOGEtNDI1Y2E1OGM2ZWFmIiwibGFuZ3VhZ2UiOiJkZSIsInV1aWQiOiI5ZGRkYmFlMTg3ZTM0OWEwYjIyYTgwOTNjOTA0ZTE5OSJ9.ut-RTHdArE5T24aaJ0wUFFqsGG8LMUwTrLboyu7bPrSeBKUohl2Nk4dER8VaJCGdwWfuw-mYvGjgvRES43LUlEe1dRl5ctvymyGl2Xo5Jc9eEtmNUQFPfIkL7ZBSMcKMiPFzgFTZLGgGaU6c1p-DOZogtws4AIkC4WWdl0O-tBIk07eD3RwoCRmpfTexQlssTF6Tf2zHwf02i29ihLsuNdEaw33ax_ohna9qputEWnX9czzVZUbJSJHuZhdgI2k5Lb1aKpjZGCrBxwB74bILnkbvSdB0K__g02QPcNwKJMfUvDWu_1RVmgk23yA-Nb8C5gUT3-HTAxlmfCQsF6UQZg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://tams-qa-api.digital-farming.com/api/farms/v2/fields?farmUuid=9d64e4e7-0679-450a-b40b-0ab703471def",
+					"protocol": "https",
+					"host": [
+						"tams-qa-api",
+						"digital-farming",
+						"com"
+					],
+					"path": [
+						"api",
+						"farms",
+						"v2",
+						"fields"
+					],
+					"query": [
+						{
+							"key": "farmUuid",
+							"value": "9d64e4e7-0679-450a-b40b-0ab703471def"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetching of Cropseasons",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ4RmhDVlJkQUpmRmRsZ2J3UzZHeHlGWHdUUnFVd19oMVZ4Ui1Bdm1CZ2ZBIn0.eyJleHAiOjE3NjM3NDE0ODIsImlhdCI6MTczMjIwNTQ4MywiYXV0aF90aW1lIjoxNzMyMjA1NDgyLCJqdGkiOiIyMDNjYTQ5Ni0zMjRhLTQ3NzItYTUzMS05NmFhMzU2MGNjNmYiLCJpc3MiOiJodHRwczovL2F1dGgtcWEuZGlnaXRhbC1mYXJtaW5nLmNvbS9hdXRoL3JlYWxtcy94ZmllbGRtYW5hZ2VyIiwic3ViIjoiMTE0NmYxZWYtN2UzZC00YzNjLWE1ODUtOGYxOTFhYmFhNjAzIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidGVzdC1wYXJ0bmVyLWFwcCIsInNlc3Npb25fc3RhdGUiOiJhNDJhYTljYi1lMTEzLTQ3YjYtOWNiYi0yZjY3YTMzYTc2ZGMiLCJhY3IiOiIxIiwic2NvcGUiOiJkb3NlZG1hcCBmaWVsZCBjcm9wc2Vhc29uIHNwcmF5aW5nIGdyb3d0aHN0YWdlcHJlZGljdGlvbiBmYXJtIiwic2lkIjoiYTQyYWE5Y2ItZTExMy00N2I2LTljYmItMmY2N2EzM2E3NmRjIiwiZmVhdHVyZXMiOlsiRkFSTV9NQU5BR0VNRU5UIiwiVEFNU19DT05GSUdVUkFUSU9OIl0sImNvdW50cnkiOiJkZSIsInVzZXJVdWlkIjoiZTk1MTc1ODQtMWU2Yy00ZWFhLWJiOGEtNDI1Y2E1OGM2ZWFmIiwibGFuZ3VhZ2UiOiJkZSIsInV1aWQiOiI5ZGRkYmFlMTg3ZTM0OWEwYjIyYTgwOTNjOTA0ZTE5OSJ9.ut-RTHdArE5T24aaJ0wUFFqsGG8LMUwTrLboyu7bPrSeBKUohl2Nk4dER8VaJCGdwWfuw-mYvGjgvRES43LUlEe1dRl5ctvymyGl2Xo5Jc9eEtmNUQFPfIkL7ZBSMcKMiPFzgFTZLGgGaU6c1p-DOZogtws4AIkC4WWdl0O-tBIk07eD3RwoCRmpfTexQlssTF6Tf2zHwf02i29ihLsuNdEaw33ax_ohna9qputEWnX9czzVZUbJSJHuZhdgI2k5Lb1aKpjZGCrBxwB74bILnkbvSdB0K__g02QPcNwKJMfUvDWu_1RVmgk23yA-Nb8C5gUT3-HTAxlmfCQsF6UQZg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://tams-qa-api.digital-farming.com/api/farms/v2/fields?farmUuid=9d64e4e7-0679-450a-b40b-0ab703471def",
+					"protocol": "https",
+					"host": [
+						"tams-qa-api",
+						"digital-farming",
+						"com"
+					],
+					"path": [
+						"api",
+						"farms",
+						"v2",
+						"fields"
+					],
+					"query": [
+						{
+							"key": "farmUuid",
+							"value": "9d64e4e7-0679-450a-b40b-0ab703471def"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
